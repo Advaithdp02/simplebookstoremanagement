@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Store Management System</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }
+        h1 {
+            margin-bottom: 30px;
+        }
+        .button-container {
+            display: flex;
+            gap: 20px;
+        }
+        .button-container button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+            background-color: #007BFF;
+            color: white;
+            transition: background-color 0.3s;
+        }
+        .button-container button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <h1>Book Store Management System</h1>
+    <div class="button-container">
+        <button onclick="location.href='addbook.html'">Add Book</button>
+        <button onclick="location.href='addpublisher.html'">Add Publisher </button>
+        <button onclick="location.href='publisherupdate.html'">Update Publisher</button>
+        <button onclick="location.href='bookupdate.html'">Update Book</button>
+        <button onclick="location.href='booklist.php'">Book List</button>
+    </div>
+</body>
+</html>
