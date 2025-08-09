@@ -42,19 +42,7 @@ This project is designed to simplify the operations of a bookstore by providing 
 
 - **Programming Language:** Python
 - **Data Storage:** File handling (CSV/JSON)
-## File Structure
----
-simplebookstoremanagement/
-├── main.py              # Entry point for the application
-├── inventory.py         # Module for book inventory management
-├── sales.py             # Module for handling sales and billing
-├── customer.py          # Module for customer data management
-├── data/                # Directory for storing data files
-│   ├── books.csv        # File for book inventory
-│   ├── sales.csv        # File for sales records
-│   └── customers.csv    # File for customer details
-├── README.md            # Project documentation
-└── requirements.txt     # Dependency file (if needed)
+
 
 ## Installation
 
